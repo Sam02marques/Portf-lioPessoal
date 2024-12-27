@@ -3,8 +3,11 @@
     
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="style.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/header.css"> 
         <title>Meu Portfólio</title>
     </head>
     <body>
@@ -12,35 +15,37 @@
             <nav>
                 <ul>
                     <li><a href="#início">INÍCIO</a></li>
-                    <li><a href="#sobremim">SOBRE MIM</a></li>
                     <li><a href="#habilidades">HABILIDADES</a></li>
                     <li><a href="#projetos">PROJETOS</a></li>
                     <li><a href="#contato">CONTATO</a></li>
                 </ul>
             </nav>
-            <h1>Meu Portfólio</h1>
-            <div class="imgfoto">
-                <img src="assets/images/foto.png" alt="Foto Pessoal">
-                <h3>Samuel Marques</h3>
-            </div>
+            <section class="home">
+                <div class="imgfoto">
+                    <img src="assets/images/foto.jpg" alt="Foto Pessoal">
+                </div>
+            </section>
         </header>
-        <section id="home" class="eu">
-            <h2> Sejam Bem Vindos ao meu portfólio!</h2>
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
+        <section class="homeContent">
+            <h2>Sobre</h2>
             <p>Nascido em São Gonçalo, RJ, passei perrengue durante um bom tempo lá, e depois me mudei para uma cidade chamada Araruama durante 7 anos. Hoje moro em Búzios, e sou Estudante do IFF Campus Cabo Frio cursando técnico em Química, além de estar cursando desenvolvimento web full stack na PDA e bolsista da FAPERJ. Adoro jogar e ler, principalmente jogos indies e livros de ficção.</p>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
-                <ul>
-                    <li>Inglês Proeficiente</li>
-                    <li>Trabalho em equipe</li>
-                    <li>HTML básico</li>
-                    <li>CSS básico</li>
-                    <li>Raciocínio Lógico</li>
-                    <li>Digitação</li>
-                </ul>
+                <div class="habContainer">
+                    <p>HTML5</p>
+                    <a target="_blank"><i class="fa-brands fa-html5"></i></a>
+                </div>
+                <div class="habContainer">
+                    <p>CSS3</p>
+                    <a target="_blank"><i class="fa-brands fa-css3-alt"></i></a>
+                </div>
+                <div class="habContainer">
+                    <p>JavaScript</p>
+                    <a target="_blank"><i class="fa-brands fa-js"></i></a>
+                </div>
         </section>
+        </div>
         <section id="projetos">
             <div class="projetos-container">
                 <div class="projeto">
@@ -50,25 +55,14 @@
                     <p>Projeto desenvolvido pelo scratch na PDA (Programadores do Amanhã) com o objetivo de apresentar objetivos e metas para nós do futuro </p>
                     <a href="https://scratch.mit.edu/projects/1058393936" target="_blank">PROJETO SCRATCH</a>
                 </div>
-                <div class="projeto">
-                    <h3>Atividade 1</h3>
-                    <img src="assets/images/mão na massa png.png">
-                    <p>Trabalho da PDA simples onde foi exigido que usasse o javascript para mostrar uma mensagem e um número no console e dizer a idade do usuário através do console</p>
-                </div>
-                <div class="projeto">
-                    <h3>Atividade 2</h3>
-                    <img src="assets/images/javascript.png">
-                    <p>Atividades realizadas utilizando o javascript explorando os conceitos de if e else na PDA</p>
-                </div>
         </section>
         <section id="contato">
                 <h2>Contato</h2>
                 <p>Entre em contato comigo através das redes sociais abaixo ou me envie uma mensagem pelo email: <strong>marquessam02@gmail.com</strong></p>
                 <div class="redessociais">
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/samuel-marques-90b818284/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Sam02marques" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/sam_marques9/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </div>
         </section> 
         <footer>
