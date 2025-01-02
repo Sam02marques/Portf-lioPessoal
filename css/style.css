@@ -1,4 +1,5 @@
 /* SELETORES*/
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
 
 #sobre h2{
     padding: 0.1rem;
@@ -25,13 +26,6 @@
     font-size:20px;
 }
 
-footer {
-    background: #464242;
-    color: hsl(0, 100%, 99%);
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 1rem;
-}
 .redessociais i{
     border-radius: 100px;
     color: #b74b4b;
@@ -56,5 +50,67 @@ footer {
     padding: 0.1rem;
     margin: 20px;
 }
-@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+.projeto{
+    text-align: center;
+    font-size: 15px;
+}
 
+.links{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProjetoImg{
+    text-align: center ;
+    padding: 50px;
+}
+
+.ProjetoImg img{
+    position: relative;
+    width: 70vw;
+    box-shadow: 0 0 25px solid #b74b4b;
+    cursor: pointer;
+    transition: 0.2s linear;
+    height: 80vh;
+}
+
+.ProjetoImg:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.ImgScratch{
+    text-align: center ;
+    padding: 50px;
+}
+
+.ImgScratch img{
+    position: relative;
+    box-shadow: 0 0 25px solid #b74b4b;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.ImgScratch:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.redessociais{
+    text-align: center;
+}
+
+#contato{
+    text-align: center;
+    font-size: 16px;
+}
+
+footer {
+    background: #464242;
+    color: hsl(0, 100%, 99%);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 1rem;
+    margin-left: 540px;
+}
