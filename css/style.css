@@ -1,6 +1,50 @@
 /* SELETORES*/
 @import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
 
+.imgfoto{
+    display: flex;
+    align-items: center;
+    gap: 170px;
+    text-align: left ;
+    padding: 100px;
+    border-radius: 50%;
+
+}
+
+.imgfoto img{
+    position: relative;
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #b74b4b;
+    cursor: pointer;
+    transition: 0.2s linear;
+    height: 70vh;
+}
+
+.imgfoto:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imgfoto{
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 15px;
+        margin-left: 10px;
+        color: rgb(122, 113, 101);
+    }
+}
+/* PARTE DO CONTEÚDO*/
+.homeContent p{
+    font-size: 18px;
+    text-align: center;
+    max-width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
 #sobre h2{
     padding: 0.1rem;
     margin: 20px;
@@ -49,6 +93,7 @@
 #habilidades h2{
     padding: 0.1rem;
     margin: 20px;
+    margin-left: 5px;
 }
 .projeto{
     text-align: center;
@@ -60,6 +105,7 @@
     font-size: 18px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .ProjetoImg{
@@ -104,13 +150,13 @@
 #contato{
     text-align: center;
     font-size: 16px;
+    margin-left: -15px;
 }
 
 footer {
-    background: #464242;
-    color: hsl(0, 100%, 99%);
+    background: #691e1e;
+    color: hsl(0, 0%, 100%);
     text-align: center;
-    padding: 10px 0;
     margin-top: 1rem;
     margin-left: 540px;
 }

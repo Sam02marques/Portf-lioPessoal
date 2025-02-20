@@ -1,24 +1,5 @@
-.imgfoto{
-    text-align: left ;
-    padding: 100px;
-    border-radius: 50%;
 
-}
-
-.imgfoto img{
-    position: relative;
-    width: 30vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
-    cursor: pointer;
-    transition: 0.2s linear;
-    height: 70vh;
-}
-
-.imgfoto:hover img{
-    transform: scale(1.1);
-    transition: 0.1s;
-}
+/*ALTERAÇÕES RELACIONADAS AO CABEÇÁRIO*/
 
 header{
     padding: 3px;
@@ -60,7 +41,7 @@ nav a:hover, nav a.active{
 }
 h2{
     font-size: xx-large;
-    color: rgb(201, 176, 143);
+    color: rgb(77, 70, 61);
     height: 10svh;
     width: 100svw;
     display: flex;
@@ -68,10 +49,4 @@ h2{
     justify-content: center;
     align-items: center;
 }
-.homeContent p{
-    font-size: 18px;
-    text-align: center;
-    max-width: 100%;
-    padding: 25px;
-    box-sizing: border-box;
-}
+

@@ -7,8 +7,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/body.css">
-        <link rel="stylesheet" href="css/header.css"> 
-        <title>Meu Portfólio</title>
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="icon" href="assets/icons/icone.jpg" type="image/x-icon">
+        <title>Portfólio | Samuel Marques</title>
+        
     </head>
     <body>
         <header>
@@ -19,13 +21,23 @@
                     <li><a href="#projetos">PROJETOS</a></li>
                     <li><a href="#contato">CONTATO</a></li>
                 </ul>
+                <div class="container-theme">
+                    <button id="theme">
+                        <span id="icon">💡</span>
+                        <span id="text">Modo escuro</span>
+                    </button>
+                </div>
             </nav>
+        </header>
             <section class="home">
                 <div class="imgfoto">
                     <img src="assets/images/foto.jpg" alt="Foto Pessoal">
+                    <div class="texto">
+                        <h1>SAMUEL MARQUES</h1>
+                        <h3>DESENVOLVEDOR WEB</h3>
+                    </div>
                 </div>
             </section>
-        </header>
         <section class="homeContent">
             <h2>Sobre</h2>
             <p>Desenvolvedor Web Full Stack em formação pelo programa Programadores do Amanhã e estudante Técnico em Química no IFF. Possuo experiência com HTML, CSS, e JavaScript, além de habilidades em trabalho em equipe, adaptabilidade e comunicação em Inglês. Apaixonado por tecnologia e ciência, foco em desenvolvimento web e pesquisa ambiental, sempre buscando criar soluções novas.</p>
@@ -80,6 +92,7 @@
                 <a href="https://github.com/Sam02marques/PROJETO-FINAL-M2-PDA" target="_blank" class="btn">Repositório</a>
             </div>
         </section>
+<!--PARTE DOS CONTATOS-->
         <section id="contato">
                 <h2>Contato</h2>
                 <p>Entre em contato comigo através das redes sociais abaixo ou me envie uma mensagem pelo email: <strong>marquessam02@gmail.com</strong></p>
@@ -89,9 +102,10 @@
                     <a href="https://www.instagram.com/sam_marques9/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </div>
         </section> 
-
+<!--PARTE DO FOOTER-->
         <footer>
             <p>&copy; 2024 Samuel Marques De Araujo. Todos os direitos reservados.</p>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>
