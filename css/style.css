@@ -100,6 +100,11 @@
     font-size: 15px;
 }
 
+#projetos p{
+    background-color: hsla(210, 14%, 71%, 0.5);
+    display: inline-block;
+    padding: 0.5rem;
+}
 .links{
     text-align: center;
     font-size: 18px;
@@ -154,7 +159,6 @@
 }
 
 footer {
-    background: #691e1e;
     color: hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 1rem;
