@@ -32,6 +32,10 @@ body.light-mode p{
     color: rgb(31, 34, 34);
 }
 
+body.light-mode a{
+    color:#1b1a1a;
+}
+
 .container-theme{
     text-align: center;
     margin-left: 150px;

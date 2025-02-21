@@ -21,9 +21,9 @@
     height: 70vh;
 }
 
-.imgfoto:hover img{
+.imgfoto a:hover img{
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .imgfoto{
@@ -127,7 +127,7 @@
     height: 80vh;
 }
 
-.ProjetoImg:hover img{
+.ProjetoImg a:hover img{
     transform: scale(1.1);
     transition: 0.3s;
 }
@@ -143,7 +143,7 @@
     transition: 0.2s linear;
 }
 
-.ImgScratch:hover img{
+.ImgScratch a:hover img{
     transform: scale(1.1);
     transition: 0.3s;
 }

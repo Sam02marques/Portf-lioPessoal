@@ -1,0 +1,123 @@
+/* Ajustes para telas menores (tablets e smartphones) */
+@media (max-width: 768px) {
+    /* Ajustes no header */
+
+    body p{
+        font-size: 17px;
+    }
+
+    header nav ul li {
+        display: block; /* Coloca os itens do menu em blocos (um abaixo do outro) */
+        margin: 10px 0; /* Reduz o espaçamento entre os itens */
+    }
+
+    header nav {
+        margin-left: 0; /* Remove a margem lateral */
+        text-align: center; /* Centraliza o menu */
+    }
+
+    /* Ajustes na seção da foto */
+    .imgfoto {
+        flex-direction: column; /* Empilha a imagem e o texto */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .imgfoto img {
+        width: 50vw; /* Reduz o tamanho da imagem */
+        height: auto;
+    }
+
+    .imgfoto h1 {
+        font-size: 2.5rem; /* Reduz o tamanho do título */
+    }
+
+    .imgfoto h3 {
+        font-size: 1.2rem; /* Reduz o tamanho do subtítulo */
+    }
+
+    /* Ajustes no texto "Sobre" */
+    .homeContent p {
+        font-size: 1.6rem; /* Ajusta o tamanho do texto */
+    }
+
+    /* Ajustes na seção de habilidades */
+    #habilidades {
+        height: auto; /* Ajusta a altura da seção */
+        padding: 20px 0;
+    }
+
+    .habContainer {
+        margin: 10px 0; /* Ajusta o espaçamento entre as habilidades */
+    }
+
+    /* Ajustes nas imagens dos projetos */
+    .ProjetoImg img, .ImgScratch img {
+        width: 90vw; /* Ajusta o tamanho das imagens */
+        height: auto;
+    }
+
+    /* Ajustes no footer */
+    footer {
+        margin-left: 0; /* Centraliza o footer */
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes no header */
+    header nav ul li {
+        margin: 5px 0; /* Reduz ainda mais o espaçamento */
+    }
+
+    /* Ajustes na seção da foto */
+    .imgfoto img {
+        width: 70vw; /* Aumenta um pouco a imagem para telas muito pequenas */
+    }
+
+    .imgfoto h1 {
+        font-size: 2rem; /* Reduz o tamanho do título */
+    }
+
+    .imgfoto h3 {
+        font-size: 1rem; /* Reduz o tamanho do subtítulo */
+    }
+
+    /* Ajustes no texto "Sobre" */
+    .homeContent p {
+        font-size: 1.4rem; /* Reduz o tamanho do texto */
+    }
+
+    /* Ajustes nos botões de links */
+    .links a {
+        font-size: 1.4rem; /* Reduz o tamanho dos botões */
+        padding: 8px 16px; /* Ajusta o padding */
+    }
+
+}
+
+/* Ajustes para telas menores menu */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+
+.imgfoto img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 25%; 
+    object-fit: cover; 
+}
+
+.ProjetoImg img, .ImgScratch img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 5%; 
+    object-fit: cover; 
+}
