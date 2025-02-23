@@ -1,9 +1,12 @@
+
+/*
+
 /* Ajustes para telas menores (tablets e smartphones) */
 @media (max-width: 768px) {
     /* Ajustes no header */
 
     body p{
-        font-size: 17px;
+        font-size: 11px;
     }
 
     header nav ul li {
@@ -57,22 +60,37 @@
         height: auto;
     }
 
+    #contato p{
+        width: 100%;
+        margin-left: 9px;
+    }
+
     /* Ajustes no footer */
     footer {
-        margin-left: 0; /* Centraliza o footer */
+        margin-left: 10px; /* Centraliza o footer */
         text-align: center;
     }
 }
 
 @media (max-width: 480px) {
+    
     /* Ajustes no header */
     header nav ul li {
         margin: 5px 0; /* Reduz ainda mais o espaçamento */
     }
 
+/* MEXENDO NO POSICIONAMENTO DO BOTÃO*/
+    .container-theme{
+        margin-left: 20px;
+    }
+
     /* Ajustes na seção da foto */
-    .imgfoto img {
-        width: 70vw; /* Aumenta um pouco a imagem para telas muito pequenas */
+    .imgfoto {
+        width: 70vw;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-left: 60px; /* Aumenta um pouco a imagem para telas muito pequenas */
     }
 
     .imgfoto h1 {
@@ -94,6 +112,17 @@
         padding: 8px 16px; /* Ajusta o padding */
     }
 
+
+    #contato p{
+        width: 100%;
+        margin-left: 9px;
+    }
+
+    /* Ajustes no footer */
+    footer {
+        margin-left: 10px; /* Centraliza o footer */
+        text-align: center;
+    }
 }
 
 /* Ajustes para telas menores menu */
@@ -107,7 +136,7 @@
     }
 }
 
-
+/* Ajeitando as bordas das fotos e suas proporções*/
 .imgfoto img {
     max-width: 100%; 
     height: auto; 
